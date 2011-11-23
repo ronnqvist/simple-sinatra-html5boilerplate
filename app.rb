@@ -5,8 +5,7 @@ require 'haml'
 require 'sass'
 
 configure do
-  set :haml, { :format => :html5 }
-  set :haml, :layout_engine => :erb
+  set :haml, { :format => :html5, :layout_engine => :erb }
 end
 
 helpers do
