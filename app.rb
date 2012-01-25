@@ -27,5 +27,6 @@ end
 get '/' do
   @title = "Hello world!"
   @descr = "This is a description for search engines and such."
+  @body_classes = "oneclass anotherclass"
   haml :index
 end
